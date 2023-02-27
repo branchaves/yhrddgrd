@@ -1,0 +1,71 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.proyectofinal;
+
+/**
+ *
+ * @author 50670
+ */
+public class Material {
+    //Se crean los atributos 
+private Material MotorEspecialDeportivo;// Atributo de  motor especial deportivo
+private Material Carroceria;// Atributo de  carroceria
+private Material MotorCarga;// Atributo de motor de carga
+private Material carroceriaEspecial; //Atributo de carroceria especial
+private Material llantasUnicasTrabajo;// Atributo de llantas unicas de trabajo
+
+    //constructor de la clase Material
+    public Material(Material MotorEspecialDeportivo, Material Carroceria, Material MotorCarga, Material carroceriaEspecial, Material llantasUnicasTrabajo) {
+        this.MotorEspecialDeportivo = MotorEspecialDeportivo;
+        this.Carroceria = Carroceria;
+        this.MotorCarga = MotorCarga;
+        this.carroceriaEspecial = carroceriaEspecial;
+        this.llantasUnicasTrabajo = llantasUnicasTrabajo;
+    }
+    // Metodo getter para el objeto motor especial deportivo
+    public Material getMotorEspecialDeportivo() {
+        return MotorEspecialDeportivo;
+    }
+    // Metodo setter para el objeto motor especial deportivo
+    public void setMotorEspecialDeportivo(Material MotorEspecialDeportivo) {
+        this.MotorEspecialDeportivo = MotorEspecialDeportivo;
+    }
+    // Metodo getter para el objeto carroceria
+    public Material getCarroceria() {
+        return Carroceria;
+    }
+    // Metodo setter para el objeto carroceria
+    public void setCarroceria(Material Carroceria) {
+        this.Carroceria = Carroceria;
+    }
+    // Metodo getter para el objeto motor de carga
+    public Material getMotorCarga() {
+        return MotorCarga;
+    }
+    // Metodo setter para el objeto motor de carga
+    public void setMotorCarga(Material MotorCarga) {
+        this.MotorCarga = MotorCarga;
+    }
+    // Metodo getter para el objeto carroceria especial
+    public Material getCarroceriaEspecial() {
+        return carroceriaEspecial;
+    }
+    // Metodo setter para el objeto carroceria especial
+    public void setCarroceriaEspecial(Material carroceriaEspecial) {
+        this.carroceriaEspecial = carroceriaEspecial;
+    }
+    // Metodo getter para el objeto llantas unicas de trabajo 
+    public Material getLlantasUnicasTrabajo() {
+        return llantasUnicasTrabajo;
+    }
+    // Metodo setter para el objeto llantas unicas de trabajo
+    public void setLlantasUnicasTrabajo(Material llantasUnicasTrabajo) {
+        this.llantasUnicasTrabajo = llantasUnicasTrabajo;
+    }
+
+
+
+
+}
